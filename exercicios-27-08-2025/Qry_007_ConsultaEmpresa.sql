@@ -1,0 +1,2 @@
+SELECT * FROM empresa
+WHERE id BETWEEN 1 AND 3;
