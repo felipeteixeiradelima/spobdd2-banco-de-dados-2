@@ -1,0 +1,6 @@
+USE TEST_felipe
+
+CREATE TABLE TB_TEST (
+    ID_CLIENT smallint IDENTITY(1,1) NOT NULL,
+    NM_CLIENT varchar(20) NOT NULL
+)

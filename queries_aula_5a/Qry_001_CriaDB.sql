@@ -1,0 +1,8 @@
+USE master
+GO
+
+CREATE DATABASE TEST_felipe
+GO
+
+USE TEST_felipe
+GO

@@ -1,0 +1,8 @@
+-- Deleta DB
+USE master
+
+ALTER DATABASE TEST_felipe SET single_user WITH ROLLBACK IMMEDIATE
+
+DROP DATABASE IF EXISTS TEST_felipe
+
+USE master
